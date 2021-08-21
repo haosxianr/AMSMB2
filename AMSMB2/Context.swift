@@ -7,9 +7,9 @@
 //
 
 import Foundation
-import SMB2
+@_implementationOnly import SMB2
 #if !SWIFT_PACKAGE
-import SMB2.Raw
+@_implementationOnly import SMB2.Raw
 #endif
 
 /// Provides synchronous operation on SMB2

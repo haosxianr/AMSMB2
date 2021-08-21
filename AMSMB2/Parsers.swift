@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SMB2
+@_implementationOnly import SMB2
 
 extension String {
     init(_ context: SMB2Context, _ dataPtr: UnsafeMutableRawPointer?) throws {

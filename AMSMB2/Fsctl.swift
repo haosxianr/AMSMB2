@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SMB2
+@_implementationOnly import SMB2
 
 protocol DataInitializable {
     init(data: Data) throws

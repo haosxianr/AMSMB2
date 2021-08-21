@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SMB2
+@_implementationOnly import SMB2
 
 /// Implements SMB2 File operations.
 @objc @objcMembers

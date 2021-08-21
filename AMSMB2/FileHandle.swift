@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import SMB2
-import SMB2.Raw
+@_implementationOnly import SMB2
+@_implementationOnly import SMB2.Raw
 
 typealias smb2fh = OpaquePointer
 

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SMB2
+@_implementationOnly import SMB2
 
 typealias smb2dir = OpaquePointer
 
